@@ -1,0 +1,294 @@
+body {
+	font-family: "InterDisplay", sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+}
+.list {
+	font-size: 22px;
+	font-weight: 600;
+	color: #fdb500;
+	background-color: #f84545;
+	margin-bottom: 15px;
+	padding: 15px 40px;
+}
+.item {
+	margin-bottom: 15px;
+}
+.image {
+	max-width: 400px;
+	margin: 0 auto 20px;
+}
+.indents {
+	margin-bottom: 30px;
+}
+.padding {
+	margin-bottom: 20px;
+}
+.padding div,
+.padding span,
+.padding img {
+	background-color: #fdb500;
+}
+.padding img {
+	padding: 10px 15px 20px 25px;
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.title {
+	font-size: 26px;
+	line-height: 1.7;
+	color: blue;
+	margin: 0 0 15px 0;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: yellow;
+	text-transform: capitalize;
+	text-shadow: -3px -2px 8px #322a16;
+	letter-spacing: 5px;
+}
+.big-title {
+	font-size: 36px;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+	text-shadow:
+		5px 4px 5px #fdb500,
+		-3px -2px 10px #f84545;
+}
+.sub-title {
+	font-size: 20px;
+	color: rgb(226, 65, 2);
+	text-align: center;
+	text-transform: capitalize;
+	margin: 0 0 12px 0;
+}
+.pd {
+	margin: 0 0 10px 0;
+}
+.block-pd {
+	padding: 10px 15px 20px 25px;
+}
+.block-pd-top {
+	padding-top: 10px;
+}
+.block-pd-right {
+	padding-right: 15px;
+}
+.block-pd-bottom {
+	padding-bottom: 20px;
+}
+.block-pd-left {
+	padding-left: 25px;
+}
+.inline-pd {
+	padding: 10px 15px 20px 25px;
+}
+.margin {
+	background-color: #fdb500;
+}
+.margin div,
+.margin span,
+.margin img {
+	background-color: #179002;
+}
+.margin .sub-title,
+.sub-title span {
+	background-color: #ffffff;
+}
+.sub-title span {
+	color: grey;
+	text-transform: lowercase;
+}
+.margin img {
+	margin: 10px 15px 20px 25px;
+	max-width: 800px;
+}
+.block-mr {
+	margin: 10px 15px 20px 25px;
+}
+.block-mr-top {
+	margin-top: 10px;
+}
+.block-mr-right {
+	margin-right: 15px;
+}
+.block-mr-bottom {
+	margin-bottom: 20px;
+}
+.block-mr-left {
+	margin-left: 25px;
+}
+.block-mr-left-minus {
+	margin-left: -25px;
+}
+.inline-mr {
+	margin: 10px 15px 20px 25px;
+}
+.width {
+	margin-bottom: 30px;
+}
+.width div {
+	background-color: #fdb500;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.block-wd {
+	width: 700px;
+}
+.block-wd-max {
+	max-width: 1000px;
+}
+.block-wd-min {
+	min-width: 600px;
+}
+.block-wd-max-min {
+	max-width: 1300px;
+	min-width: 600px;
+}
+.width img {
+	display: block;
+	min-width: 500px;
+	margin: 0 auto;
+}
+.height {
+	margin-bottom: 30px;
+}
+.height div {
+	background-color: #fdb500;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.block-hg {
+	height: 100px;
+}
+.block-hg-max {
+	max-height: 50px;
+}
+.block-hg-min {
+	min-height: 80px;
+}
+.block-hg-max-min {
+	min-height: 100px;
+	max-height: 125px;
+}
+.height img {
+	display: block;
+	max-height: 500px;
+	margin: 0 auto;
+}
+.box {
+	margin-bottom: 30px;
+}
+.box div {
+	background-color: #fdb500;
+	margin-bottom: 10px;
+	width: 500px;
+}
+.content-box {
+	box-sizing: content-box;
+	padding-left: 50px;
+	margin-left: 50px;
+}
+.border-box {
+	padding-left: 50px;
+	margin-left: 50px;
+}
+.overflow {
+	margin-bottom: 30px;
+}
+.overflow div {
+	background-color: #fdb500;
+	margin: 0 auto 10px;
+	padding: 10px;
+	max-width: 600px;
+	max-height: 80px;
+}
+.over-hidden {
+	overflow: hidden;
+}
+.over-clip {
+	overflow: clip;
+}
+.over-scroll {
+	overflow: scroll;
+}
+.over-auto {
+	overflow: auto;
+}
+.display {
+	margin-bottom: 30px;
+}
+.display div,
+.display span {
+	background-color: #fdb500;
+	margin: 0 auto 10px;
+	padding: 10px;
+	max-width: 600px;
+}
+.display-block {
+	display: block;
+}
+.display-inline p {
+	display: inline;
+}
+.display-none {
+	display: none;
+}
+.homework {
+	margin-bottom: 30px;
+}
+.homework-body {
+	font-family: "Poppins", serif;
+	background-color: #fff3e3;
+	color: #333;
+	max-width: 643px;
+	padding: 62px 43px 37px 39px;
+	margin: 0 auto;
+}
+.homework-sub-title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 3px;
+	margin: 0 0 4px 0;
+	text-transform: capitalize;
+}
+.homework-title {
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 1.25;
+	color: #b88e2f;
+	margin: 0 0 17px 0;
+	text-transform: capitalize;
+}
+.homework-text {
+	font-weight: 500;
+	line-height: 1.33;
+	max-width: 546px;
+	margin: 0 0 46px 0;
+}
+.homework-link {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #b88e2f;
+	padding: 25px 72px;
+}
+footer {
+	padding: 10px 0 25px;
+}
+.footer-text {
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.footer-link {
+	max-width: 87px;
+	display: block;
+	margin: 0 auto;
+}
