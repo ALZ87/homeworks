@@ -39,7 +39,7 @@ body {
 	font-size: 26px;
 	line-height: 1.7;
 	color: blue;
-	margin: 0 0 15px 0;
+	margin-bottom: 15px;
 	text-align: center;
 	text-decoration: underline;
 	text-decoration-style: dashed;
@@ -51,7 +51,7 @@ body {
 .big-title {
 	font-size: 36px;
 	font-weight: 600;
-	margin: 0 0 20px 0;
+	margin-bottom: 20px;
 	text-shadow:
 		5px 4px 5px #fdb500,
 		-3px -2px 10px #f84545;
@@ -61,10 +61,10 @@ body {
 	color: rgb(226, 65, 2);
 	text-align: center;
 	text-transform: capitalize;
-	margin: 0 0 12px 0;
+	margin-bottom: 12px;
 }
 .pd {
-	margin: 0 0 10px 0;
+	margin-bottom: 10px;
 }
 .block-pd {
 	padding: 10px 15px 20px 25px;
@@ -239,7 +239,7 @@ body {
 	margin-bottom: 30px;
 }
 .homework-body {
-	font-family: "Poppins", serif;
+	font-family: "Poppins", sans-serif;
 	background-color: #fff3e3;
 	color: #333;
 	max-width: 643px;
@@ -251,7 +251,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 3px;
-	margin: 0 0 4px 0;
+	margin-bottom: 4px;
 	text-transform: capitalize;
 }
 .homework-title {
@@ -259,17 +259,17 @@ body {
 	font-size: 52px;
 	line-height: 1.25;
 	color: #b88e2f;
-	margin: 0 0 17px 0;
+	margin-bottom: 17px;
 	text-transform: capitalize;
 }
 .homework-text {
 	font-weight: 500;
 	line-height: 1.33;
 	max-width: 546px;
-	margin: 0 0 46px 0;
+	margin-bottom: 46px;
 }
 .homework-link {
-	display: inline-block;
+	text-align: center;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.5;
