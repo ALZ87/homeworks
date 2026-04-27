@@ -34,7 +34,6 @@ div:not(:first-child) > *:not(:last-child) {
 }
 div:first-child .text {
 	display: inline-block;
-	line-height: 1.6;
 }
 div:first-child > *:not(:last-child) {
 	margin-right: 10px;
