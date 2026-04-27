@@ -1,0 +1,83 @@
+body {
+	font-family: "InterDisplay", sans-serif;
+	background-color: #aeaef4;
+}
+header {
+	padding: 20px 0;
+}
+main {
+	padding: 20px;
+	font-size: 20px;
+	line-height: 1.6;
+}
+main > *:not(:last-child) {
+	margin-bottom: 30px;
+}
+.title {
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.7;
+	color: blue;
+	text-transform: capitalize;
+	text-shadow: 0px 0px 5px #322a16;
+	letter-spacing: 5px;
+}
+.big-title {
+	font-size: 36px;
+}
+main .text span {
+	color: red;
+}
+div:not(:first-child) > *:not(:last-child) {
+	margin-bottom: 15px;
+}
+div:first-child .text {
+	display: inline-block;
+	line-height: 1.6;
+}
+div:first-child > *:not(:last-child) {
+	margin-right: 10px;
+}
+.item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.item {
+	padding-left: 38px;
+	min-height: 28px;
+}
+.item:first-child {
+	background: url("../img/account_alert.svg") 0 0 / 28px no-repeat;
+}
+.item:nth-child(2) {
+	background: url("../img/search.svg") 0 0 / 28px no-repeat;
+}
+.item:nth-child(3) {
+	background: url("../img/heart.svg") 0 0 / 28px no-repeat;
+}
+.item:last-child {
+	background: url("../img/shopping.svg") 0 0 / 28px no-repeat;
+}
+picture {
+	display: inline-block;
+}
+div > img {
+	border-radius: 10px;
+}
+footer {
+	padding: 10px 0 25px;
+	background-color: #caf0ee;
+	text-align: center;
+}
+footer div > *:not(:last-child) {
+	margin-bottom: 15px;
+}
+.footer-text {
+	font-size: 20px;
+	color: red;
+}
+.footer-link {
+	max-width: 87px;
+	display: block;
+	margin: 0 auto;
+}
