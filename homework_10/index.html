@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Homework 10</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<h1 id="top" class="header__title title title--big">Homework 10</h1>
+					<div class="header__menu menu">
+						<div class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Посилання №1</a></li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Посилання №2</a>
+									<ul class="menu__sub-menu sub-menu">
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Посилання №1</a></li>
+										<li class="sub-menu__item">
+											<a href="#" class="sub-menu__link">Посилання №2</a>
+											<ul class="sub-menu__dropdown dropdown">
+												<li class="dropdown__item"><a href="#" class="dropdown__link">Посилання №1</a></li>
+												<li class="dropdown__item"><a href="#" class="dropdown__link">Посилання №2</a></li>
+												<li class="dropdown__item"><a href="#" class="dropdown__link">Посилання №3</a></li>
+												<li class="dropdown__item"><a href="#" class="dropdown__link">Посилання №4</a></li>
+											</ul>
+										</li>
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Посилання №3</a></li>
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Посилання №4</a></li>
+									</ul>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link">Посилання №3</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Посилання №4</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div class="page__container">
+					<div class="page__article article">
+						<h2 class="article__title">Responsibilities</h2>
+						<div class="article__text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+						</div>
+					</div>
+					<div class="page__position position">
+						<h2 class="position__title title-position title-position--big">Position</h2>
+						<div class="position__body body-position">
+							<div class="body-position__relative relative">
+								<h3 class="relative__title title-position">Relative</h3>
+								<div class="relative__body">
+									<div class="relative__block relative__block--px">top: 15px; left: 100px;</div>
+								</div>
+								<div class="relative__body relative__body--height">
+									<div class="relative__block relative__block--percent">top: 50%; left: 50%;</div>
+								</div>
+								<div class="relative__body">
+									<div class="relative__block relative__block--z-index-1">1</div>
+									<div class="relative__block relative__block--z-index-2">2</div>
+									<div class="relative__block relative__block--z-index-3">3</div>
+									<div class="relative__block relative__block--z-index-4">Я провалився під батьківський елемент!!!</div>
+								</div>
+							</div>
+							<div class="body-position__absolute absolute">
+								<h3 class="absolute__title title-position">Absolute</h3>
+								<div class="absolute__body">
+									<div class="absolute__block absolute__block--px">
+										top: -15px; left: 100px;<br />
+										а мій батько, втративши мене, загубив свою висоту!
+									</div>
+								</div>
+								<div class="absolute__body">
+									<div class="absolute__block absolute__block--percent">top: 30%; left: -5%;</div>
+								</div>
+							</div>
+							<div class="body-position__fixed fixed">
+								<h3 class="fixed__title title-position">Fixed</h3>
+								<div class="fixed__body">
+									<p>Тут знаходився fixed block, але зараз він відсутній!</p>
+									<div class="fixed__block">Я fixed block, тому позиціонуюсь тільки відносно в'юпорта, але щоб нікому не заважати буду мати z-index: -10;</div>
+								</div>
+							</div>
+							<div class="body-position__sticky sticky">
+								<h3 class="sticky__title title-position">Sticky</h3>
+								<div class="sticky__body">
+									<div class="sticky__block">Я sticky block і можу рухатись тільки всередині батьківського елемента!</div>
+									<div class="sticky__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem nam nostrum soluta possimus id ex, maxime molestias, iure quaerat distinctio! Corrupti aliquid doloribus blanditiis ad vel magni accusantium voluptates suscipit explicabo eos quo nemo, deleniti officia perspiciatis eligendi expedita alias culpa? Recusandae labore rem temporibus deleniti? Sapiente voluptatum exercitationem veniam provident! Recusandae tenetur, eligendi optio assumenda molestias, illo ratione quos eos necessitatibus perspiciatis culpa asperiores nam tempore iusto magnam reprehenderit in? Esse provident rerum facilis, ratione tempora tempore aliquid sed illo reiciendis magnam mollitia exercitationem saepe quasi officia eum dignissimos harum beatae nobis perspiciatis eos distinctio odit atque. Sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, odit dolorum! Expedita labore odit voluptate dolorem, ipsa possimus quaerat provident illo voluptatem ut sunt voluptatum nam blanditiis delectus? Sunt alias explicabo saepe a vel. Modi, natus iure! Libero magnam illum laudantium, quis dolorem velit? Illo, quas! Quam, tenetur! Minus fugiat provident soluta enim
+											dicta exercitationem, alias necessitatibus tempora magni vel tenetur commodi iusto quisquam harum accusantium pariatur natus explicabo minima nisi nostrum illo ut! Porro quod alias, quis, animi saepe sequi eaque iste incidunt quia, distinctio a rerum adipisci facilis perspiciatis. Maiores fugit consequatur illum voluptatum nam, voluptas repellat exercitationem qui nemo non officiis, harum culpa porro ipsa. Officia corrupti accusamus, porro quos exercitationem, commodi illum molestias obcaecati, impedit tenetur sed atque saepe dicta dignissimos mollitia quidem similique! Dolore doloribus cumque laudantium vitae ipsa cupiditate saepe reiciendis esse est deleniti doloremque veniam, voluptatum expedita recusandae illum earum dicta architecto non accusamus! Autem ullam error exercitationem
+										</p>
+									</div>
+								</div>
+								<div class="sticky__text-test">
+									<p>
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolore explicabo corrupti saepe hic voluptas expedita consectetur? Non vero aspernatur temporibus id excepturi cumque qui aliquam sapiente dignissimos error doloremque consequuntur eum sequi velit a consequatur, voluptas repudiandae nam maxime quaerat iusto. Quisquam assumenda exercitationem tenetur iste. Laboriosam, laudantium mollitia. Dolorem molestias, minus nesciunt consectetur totam rerum deleniti perferendis! Iure corporis sapiente possimus blanditiis dolores eum vitae similique velit facere temporibus, unde amet totam quod, minima, tenetur sed saepe modi eligendi quisquam laudantium expedita. Sed enim voluptate molestias, eveniet dolores qui aut asperiores odit. Incidunt fugiat, natus consequuntur explicabo ut autem rerum velit quo fugit. Placeat reiciendis corporis expedita quam provident amet distinctio, at delectus deserunt repudiandae? Perferendis nesciunt qui consequatur aut repudiandae placeat accusantium quidem vitae! Distinctio nisi perspiciatis saepe laboriosam possimus, dolores, totam sunt accusamus inventore, explicabo tempora debitis! Officia ipsa cumque commodi suscipit
+										quis fugiat voluptates repellat! Optio blanditiis nostrum consequatur corrupti perferendis qui minus aperiam ea et saepe eius nulla nesciunt laborum, necessitatibus consequuntur nisi. Ab, explicabo. Quidem eius fugiat perferendis cupiditate dolorem reprehenderit odit voluptas dolor error culpa. Dolor eligendi mollitia minima cupiditate dolores amet consequatur ipsa voluptatum, modi ipsam? Veritatis illo maiores qui officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque dicta assumenda maiores voluptas deserunt in nam illo veritatis ab saepe quisquam, totam facere. Incidunt optio provident deserunt fuga neque unde nostrum impedit asperiores non, vero accusamus mollitia cupiditate odio error blanditiis rem laborum! Minus ipsam ullam, dicta totam voluptatibus, autem, libero alias accusantium ad itaque perspiciatis enim. Architecto sit quaerat dignissimos? Repudiandae harum assumenda iusto tempore, aut excepturi, velit suscipit molestiae voluptatem repellat dolores voluptates. At eaque quibusdam, repellat error ipsam quo natus minus eos dolore reiciendis voluptatum obcaecati vero nesciunt incidunt necessitatibus hic mollitia sunt
+										magnam, et earum, facilis ratione? Iste, blanditiis magnam et nobis, praesentium eligendi obcaecati aliquam voluptas illum fugit reiciendis eveniet eos incidunt fugiat, explicabo quas nisi alias? Ratione labore, tempore a dolores excepturi non suscipit, aut dolore, eligendi aperiam omnis eaque unde architecto tempora vitae nisi debitis distinctio ipsum corporis officia ea amet eius. Quaerat ipsum voluptatibus aperiam numquam modi aut saepe unde, neque fuga eaque cum quis natus quae exercitationem, odio, cupiditate accusamus consequuntur deleniti debitis excepturi aspernatur repellendus tempore? Iste voluptatum veniam neque perferendis maxime exercitationem rerum mollitia est alias! Doloremque commodi consequatur asperiores nobis non error cupiditate recusandae ipsum voluptate voluptatum dolore corrupti atque nihil quasi necessitatibus facilis alias, voluptates harum dolores molestias maxime cum in? Libero voluptatum deserunt maxime a sit possimus iste soluta amet voluptas ipsam quis vel odio inventore autem atque ullam ea, dolores tenetur? Doloremque error eos optio aliquid. Eaque, sunt. Nobis aliquam mollitia vel harum. Eum fuga error blanditiis optio adipisci
+										hic quis nulla reprehenderit natus ad cupiditate, voluptatem animi asperiores aperiam architecto amet in ipsum laudantium rerum? Nulla sapiente pariatur, corporis assumenda necessitatibus reprehenderit officiis beatae nihil, est corrupti minima quae nobis quasi sequi, non delectus. Minima dolor facere veritatis omnis iusto molestias cum distinctio expedita, blanditiis voluptatum tempore pariatur excepturi quam obcaecati aperiam exercitationem quo placeat sit. Facilis accusamus a possimus. Aliquid et expedita ducimus quam quos, soluta, possimus consequuntur autem optio distinctio sit maiores magni dolore nulla! Labore voluptatibus ullam placeat quia adipisci, obcaecati commodi beatae perspiciatis dolor sapiente ea nobis cumque, aspernatur dolore at quam atque non doloribus nemo corporis quasi amet! Numquam eligendi temporibus velit error. Delectus voluptate non consequatur voluptatum asperiores fuga laboriosam deleniti dolore, sequi tempore ducimus dolorum adipisci possimus animi eum est numquam distinctio! Dolores cum, hic voluptates unde nulla vitae, officia beatae asperiores dicta minima fugiat ipsam? Esse reprehenderit excepturi, voluptatum ipsam nam pariatur
+										minus nostrum cum aperiam est debitis adipisci cumque necessitatibus, ea hic earum dolore! Tenetur obcaecati in, delectus eius sapiente enim ipsam et omnis, nihil saepe corporis recusandae, quisquam molestiae at rerum eligendi voluptates error sequi? Expedita eos molestiae ea veniam soluta dignissimos adipisci eum eveniet ullam, accusamus doloribus corporis est excepturi maxime necessitatibus ut. Soluta, fugiat voluptatum dignissimos natus laborum libero unde repellat qui voluptatibus totam praesentium sequi cumque harum vitae culpa odio quae architecto fugit! Esse, rem dolores. Voluptates ab hic dolorem expedita, esse deleniti aliquid illum labore? Dicta expedita ab consequuntur?
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<h2 class="footer__title title">Thank you for your attention!!!</h2>
+					<div class="footer__text">
+						<p>To return to the top, press the "Наверх" button</p>
+					</div>
+					<a class="footer__link" href="#top">
+						<div class="footer__image">
+							<img src="img/tablet.jpg" alt="Tablet in the form of a button with the inscription: Up" />
+						</div>
+					</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
