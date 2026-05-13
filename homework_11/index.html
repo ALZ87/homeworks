@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Homework 11</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<h1 class="header__title title title--big">Homework 11</h1>
+					<div class="header__menu menu">
+						<div class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">2D-простір</a>
+									<ul class="menu__sub-menu sub-menu">
+										<li class="sub-menu__item"><a href="#transl" class="sub-menu__link">Translate</a></li>
+										<li class="sub-menu__item">
+											<a href="#scal" class="sub-menu__link">Scale</a>
+										</li>
+										<li class="sub-menu__item"><a href="#rotat" class="sub-menu__link">Rotate</a></li>
+										<li class="sub-menu__item"><a href="#skw" class="sub-menu__link">Skew</a></li>
+										<li class="sub-menu__item"><a href="#orig" class="sub-menu__link">Origin</a></li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">3D-простір</a>
+									<ul class="menu__sub-menu sub-menu">
+										<li class="sub-menu__item"><a href="#perspect" class="sub-menu__link">Perspective</a></li>
+										<li class="sub-menu__item">
+											<a href="#transf" class="sub-menu__link">Transform3D</a>
+										</li>
+										<li class="sub-menu__item"><a href="#styl" class="sub-menu__link">Style</a></li>
+										<li class="sub-menu__item"><a href="#back" class="sub-menu__link">Backface</a></li>
+									</ul>
+								</li>
+								<li class="menu__item"><a href="#hw" class="menu__link">Homework</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main id="top" class="page">
+				<div class="page__container">
+					<div class="page__transform transform">
+						<h2 class="transform__title title-transform title-transform--big">Transform</h2>
+						<div class="transform__body body-transform">
+							<div id="transl" class="body-transform__translate translate">
+								<h3 class="translate__title title-transform">Translate</h3>
+								<div class="translate__body">
+									<div class="translate__block translate__block--px">translate: 15px 30px;</div>
+								</div>
+								<div class="translate__body">
+									<div class="translate__block translate__block--percent">translate: 50% 10%;</div>
+								</div>
+								<div class="translate__body">
+									<div class="translate__block translate__block--x">transform: translateX(10px);</div>
+								</div>
+								<div class="translate__body">
+									<div class="translate__block translate__block--y">transform: translateY(25%);</div>
+								</div>
+							</div>
+							<div id="scal" class="body-transform__scale scale">
+								<h3 class="scale__title title-transform">Scale</h3>
+								<div class="scale__body">
+									<div class="scale__block scale__block--short">scale: 0.5;</div>
+								</div>
+								<div class="scale__body">
+									<div class="scale__block scale__block--average">scale: 0.9 1.1;</div>
+								</div>
+								<div class="scale__body">
+									<div class="scale__block scale__block--high">scale: 1.3;</div>
+								</div>
+								<div class="scale__body">
+									<div class="scale__block scale__block--mirror">scale: -1 -1;</div>
+								</div>
+							</div>
+							<div id="rotat" class="body-transform__rotate rotate">
+								<h3 class="rotate__title title-transform">Rotate</h3>
+								<div class="rotate__body">
+									<div class="rotate__block rotate__block--clockwise">rotate: 40deg;</div>
+								</div>
+								<div class="rotate__body">
+									<div class="rotate__block rotate__block--counterclockwise">rotate: -120deg;</div>
+								</div>
+								<div class="rotate__body">
+									<div class="rotate__block rotate__block--x">transform: rotateX(45deg);</div>
+								</div>
+								<div class="rotate__body">
+									<div class="rotate__block rotate__block--y">transform: rotateY(30deg);</div>
+								</div>
+							</div>
+							<div id="skw" class="body-transform__skew skew">
+								<h3 class="skew__title title-transform">Skew</h3>
+								<div class="skew__body">
+									<div class="skew__block skew__block--skew">transform: skew(25deg, 15deg);</div>
+								</div>
+								<div class="skew__body">
+									<div class="skew__block skew__block--x">transform: skewX(30deg);</div>
+								</div>
+								<div class="skew__body">
+									<div class="skew__block skew__block--y">transform: skewY(20deg);</div>
+								</div>
+							</div>
+							<div id="orig" class="body-transform__origin origin">
+								<h3 class="origin__title title-transform">Origin</h3>
+								<div class="origin__body">
+									<div class="origin__block origin__block--px">transform: rotate(-20deg); transform-origin: 300px 150px;</div>
+								</div>
+								<div class="origin__body">
+									<div class="origin__block origin__block--percent">transform: rotate(180deg); transform-origin: 25% 75%;</div>
+								</div>
+								<div class="origin__body">
+									<div class="origin__block origin__block--word">transform: rotate(-75deg); transform-origin: top right;</div>
+								</div>
+							</div>
+							<div id="perspect" class="body-transform__perspective perspective">
+								<h3 class="perspective__title title-transform">Perspective</h3>
+								<div class="perspective__body">
+									<div class="perspective__block">perspective: 300px; transform: rotateX(60deg)</div>
+								</div>
+							</div>
+							<div id="transf" class="body-transform__transform3d transform3d">
+								<h3 class="transform3d__title title-transform">Transform3D</h3>
+								<div class="transform3d__body">
+									<div class="transform3d__block transform3d__translate3d">transform: translate3D(30px, 30px, -35px);</div>
+								</div>
+								<div class="transform3d__body">
+									<div class="transform3d__block transform3d__block--scale3d">transform: scale3D(0.9, 1.1, 1)</div>
+								</div>
+								<div class="transform3d__body">
+									<div class="transform3d__block transform3d__block--rotate3d">transform: rotate3d(100, 40, 80, 60deg);</div>
+								</div>
+								<div class="transform3d__body">
+									<div class="transform3d__block transform3d__block--multi3d">transform: translate3d(20px, 20px, 40px) scale3D(1.2, 1.1, 1) rotate3d(1, 1, 1, 20deg);</div>
+								</div>
+							</div>
+							<div id="styl" class="body-transform__style style">
+								<h3 class="style__title title-transform">Style</h3>
+								<div class="style__body">
+									<div class="style__block style__block--x">transform: rotateX(45deg);</div>
+								</div>
+								<div class="style__body">
+									<div class="style__block style__block--y">transform: rotateY(45deg);</div>
+								</div>
+							</div>
+							<div id="back" class="body-transform__backface backface">
+								<h3 class="backface__title title-transform">Backface</h3>
+								<div class="backface__body">
+									<div class="backface__block">backface-visibility: hidden; transform: rotateY(180deg);</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="hw" class="page__homework spaceship">
+						<div class="spaceship__body body-spaceship">
+							<div class="body-spaceship__stars stars">
+								<div class="stars__item star">
+									<div class="star__center">
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+									</div>
+								</div>
+								<div class="stars__item star">
+									<div class="star__center">
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+									</div>
+								</div>
+								<div class="stars__item star">
+									<div class="star__center">
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+									</div>
+								</div>
+								<div class="stars__item star">
+									<div class="star__center">
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+									</div>
+								</div>
+								<div class="stars__item star">
+									<div class="star__center">
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+										<div class="star__beam"></div>
+									</div>
+								</div>
+							</div>
+							<div class="body-spaceship__carcase carcase">
+								<div class="carcase__cabin"></div>
+								<div class="carcase__body"></div>
+								<div class="carcase__wing wing">
+									<div class="wing__body"></div>
+									<div class="wing__weapon"></div>
+									<div class="wing__rocket"></div>
+								</div>
+								<div class="carcase__wing wing wing--left">
+									<div class="wing__body"></div>
+									<div class="wing__weapon"></div>
+									<div class="wing__rocket"></div>
+								</div>
+								<div class="carcase__engine"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<h2 class="footer__title title">Thank you for your attention!!!</h2>
+					<div class="footer__text">
+						<p>To return to the top, press the "Наверх" button</p>
+					</div>
+					<a class="footer__link" href="#top">
+						<div class="footer__image">
+							<img src="img/tablet.jpg" alt="Tablet in the form of a button with the inscription: Up" />
+						</div>
+					</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

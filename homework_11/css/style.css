@@ -1,0 +1,609 @@
+body {
+	font-family: "InterDisplay", sans-serif;
+	background-color: #ecf3f2;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+}
+.header {
+	padding: 20px 0;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header__container {
+}
+.header__container > *:not(:last-child) {
+	margin-bottom: 15px;
+}
+.header__title {
+	text-align: center;
+}
+.title {
+	font-size: 26px;
+	line-height: 1.7;
+	color: blue;
+	text-transform: capitalize;
+	text-shadow: 0px 0px 5px #322a16;
+	letter-spacing: 5px;
+}
+.title--big {
+	font-size: 36px;
+	font-weight: 600;
+}
+.header__menu {
+	max-width: max-content;
+	margin: 0 auto;
+}
+.menu {
+	font-weight: 600;
+	line-height: 1.4;
+	background-color: yellowgreen;
+	border-radius: 5px;
+	padding: 0 20px;
+	text-align: center;
+}
+.menu__body {
+}
+.menu__list {
+}
+.menu__item {
+	display: inline-block;
+	position: relative;
+}
+.menu__item:not(:last-child):after {
+	content: "";
+	background: url("../img/arrow_dawn.svg") 0 0 / cover no-repeat;
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-bottom: -5px;
+}
+.menu__item:not(:last-child) {
+	margin-right: 20px;
+}
+.sub-menu {
+	opacity: 0;
+	visibility: hidden;
+}
+.menu li:hover > a {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.menu li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+}
+.menu__link {
+	color: #ecf3f2;
+	font-size: 22px;
+	padding: 10px 0;
+}
+.menu__sub-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: rgba(214, 254, 38, 0.95);
+	border-bottom-left-radius: 10px;
+	padding: 10px 0;
+	width: max-content;
+	max-width: 300px;
+}
+.sub-menu__item {
+	position: relative;
+}
+.sub-menu__item:not(:last-child),
+.dropdown__item:not(:last-child) {
+	margin-bottom: 5px;
+}
+.sub-menu__link {
+	color: blue;
+	font-size: 20px;
+	padding: 5px 15px;
+}
+.page {
+	padding: 20px 0;
+}
+.page__container {
+}
+.page__container > *:not(:last-child) {
+	margin-bottom: 20px;
+}
+.page__transform {
+}
+.transform > *:not(:last-child) {
+	margin-bottom: 15px;
+}
+.transform__title {
+}
+.title-transform {
+	font-size: 22px;
+	line-height: 1.5;
+	color: #ff5202;
+	text-shadow: 0px 0px 7px #322a16;
+}
+.title-transform--big {
+	font-size: 26px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.transform__body {
+}
+.body-transform {
+}
+.body-transform > *:not(:last-child) {
+	margin-bottom: 50px;
+}
+.body-transform__translate {
+}
+.translate {
+}
+.translate,
+.scale,
+.rotate,
+.skew,
+.origin,
+.perspective,
+.transform3d,
+.style,
+.backface {
+	text-align: center;
+}
+.translate__title,
+.scale__title,
+.rotate__title,
+.skew__title,
+.origin__title,
+.perspective__title,
+.transform3d__title,
+.style__title,
+.backface__title {
+	margin-bottom: 15px;
+}
+.translate__body,
+.scale__body,
+.rotate__body,
+.skew__body,
+.origin__body,
+.perspective__body,
+.transform3d__body,
+.style__body,
+.backface__body {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	vertical-align: top;
+}
+.translate__body:not(:last-child),
+.scale__body:not(:last-child),
+.rotate__body:not(:last-child),
+.skew__body:not(:last-child),
+.origin__body:not(:last-child),
+.perspective__body:not(:last-child),
+.transform3d__body:not(:last-child),
+.style__body:not(:last-child),
+.backface__body:not(:last-child) {
+	margin-right: 100px;
+}
+.translate__block,
+.scale__block,
+.rotate__block,
+.skew__block,
+.origin__block,
+.perspective__block,
+.transform3d__block,
+.style__block,
+.backface__block {
+	padding: 15px;
+	width: 150px;
+	height: 150px;
+	background-color: #00f925;
+	line-height: 1.4;
+}
+.translate__body:hover .translate__block--px {
+	translate: 15px 30px;
+}
+.translate__body:hover .translate__block--percent {
+	translate: 50% 10%;
+}
+.translate__body:hover .translate__block--x {
+	transform: translateX(10px);
+}
+.translate__body:hover .translate__block--y {
+	transform: translateY(25%);
+}
+.body-transform__scale {
+}
+.scale {
+}
+.scale__title {
+}
+.title-transform {
+}
+.scale__body {
+}
+.scale__block {
+}
+.scale__body:hover .scale__block--short {
+	scale: 0.5;
+}
+.scale__body:hover .scale__block--average {
+	scale: 0.9 1.1;
+}
+.scale__body:hover .scale__block--high {
+	scale: 1.3;
+}
+.scale__body:hover .scale__block--mirror {
+	scale: -1 -1;
+}
+.body-transform__rotate {
+}
+.rotate {
+}
+.rotate__title {
+}
+.title-transform {
+}
+.rotate__body {
+}
+.rotate__block {
+}
+.rotate__body:hover .rotate__block--clockwise {
+	rotate: 40deg;
+}
+.rotate__body:hover .rotate__block--counterclockwise {
+	rotate: -120deg;
+}
+.rotate__body:hover .rotate__block--x {
+	transform: rotateX(45deg);
+}
+.rotate__body:hover .rotate__block--y {
+	transform: rotateY(30deg);
+}
+.body-transform__skew {
+}
+.skew {
+}
+.skew__title {
+}
+.title-transform {
+}
+.skew__body {
+}
+.skew__block {
+}
+.skew__body:hover .skew__block--skew {
+	transform: skew(25deg, 15deg);
+}
+.skew__body:hover .skew__block--x {
+	transform: skewX(30deg);
+}
+.skew__body:hover .skew__block--y {
+	transform: skewY(20deg);
+}
+.body-transform__origin {
+}
+.origin {
+}
+.origin__title {
+}
+.title-transform {
+}
+.origin__body {
+}
+.origin__block {
+}
+.origin__body:hover .origin__block--px {
+	transform: rotate(-20deg);
+	transform-origin: 300px 150px;
+}
+.origin__body:hover .origin__block--percent {
+	transform: rotate(180deg);
+	transform-origin: 25% 75%;
+}
+.origin__body:hover .origin__block--word {
+	transform: rotate(-75deg);
+	transform-origin: top right;
+}
+.body-transform__perspective {
+}
+.perspective {
+}
+.perspective__title {
+}
+.title-transform {
+}
+.perspective__body {
+	perspective: 300px;
+	background-color: rgba(0, 128, 0, 0.3);
+}
+.perspective__body:hover .perspective__block {
+	transform: rotateX(60deg);
+}
+.body-transform__transform3d {
+}
+.transform3d {
+}
+.transform3d__title {
+}
+.title-transform {
+}
+.transform3d__body {
+	perspective: 300px;
+	background-color: rgba(0, 128, 0, 0.3);
+}
+.transform3d__block {
+}
+.transform3d__body:hover .transform3d__translate3d {
+	transform: translate3D(30px, 30px, -35px);
+}
+.transform3d__body:hover .transform3d__block--scale3d {
+	transform: scale3D(0.9, 1.1, 1);
+}
+.transform3d__body:hover .transform3d__block--rotate3d {
+	transform: rotate3d(100, 40, 80, 60deg);
+}
+.transform3d__body:hover .transform3d__block--multi3d {
+	transform: translate3d(20px, 20px, 40px) scale3D(1.2, 1.1, 1) rotate3d(1, 1, 1, 20deg);
+}
+.body-transform__style {
+}
+.style {
+}
+.style__title {
+}
+.title-transform {
+}
+.style__body {
+	perspective: 300px;
+	background-color: rgba(0, 128, 0, 0.3);
+}
+.style__block {
+}
+.style__body:hover .style__block--x {
+	transform: rotateX(45deg);
+}
+.style__body:hover .style__block--y {
+	transform: rotateY(45deg);
+}
+.body-transform__backface {
+}
+.backface {
+}
+.backface__title {
+}
+.title-transform {
+}
+.backface__body {
+	perspective: 300px;
+	background-color: rgba(0, 128, 0, 0.3);
+}
+.backface__block {
+	background-color: rgba(0, 249, 37, 0.542);
+}
+.backface__body:hover .backface__block {
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+.page__homework {
+	background: url("../img/space.avif") 0 0 / cover no-repeat;
+}
+.spaceship {
+	position: relative;
+	padding: 500px 0 200px;
+}
+.spaceship__body {
+}
+.body-spaceship {
+}
+.body-spaceship__stars {
+}
+.stars {
+}
+.stars__item {
+	position: absolute;
+}
+.stars__item:nth-child(1) {
+	top: 100px;
+	left: 100px;
+	rotate: 55deg;
+}
+.stars__item:nth-child(2) {
+	top: 250px;
+	left: 500px;
+	rotate: 185deg;
+}
+.stars__item:nth-child(3) {
+	top: 200px;
+	right: 200px;
+	rotate: 105deg;
+}
+.stars__item:nth-child(4) {
+	bottom: 100px;
+	left: 150px;
+}
+.stars__item:nth-child(5) {
+	bottom: 100px;
+	right: 100px;
+	rotate: -80deg;
+}
+.star {
+}
+.star:not(:hover) {
+	scale: 0.2;
+}
+.star__center {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.star__beam {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 50px solid #fff;
+}
+.star__beam:nth-child(1) {
+	top: -48px;
+	left: 15px;
+}
+.star__beam:nth-child(2) {
+	rotate: 72deg;
+	top: -17px;
+	left: 57px;
+}
+.star__beam:nth-child(3) {
+	rotate: 144deg;
+	top: 37px;
+	left: 43px;
+}
+.star__beam:nth-child(4) {
+	rotate: 216deg;
+	top: 35px;
+	left: -15px;
+}
+.star__beam:nth-child(5) {
+	rotate: 288deg;
+	top: -17px;
+	left: -28px;
+}
+.body-spaceship__carcase {
+}
+.carcase {
+	position: relative;
+	background-color: #00879f;
+	width: 100px;
+	height: 400px;
+	margin: 0 auto;
+	border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+}
+.carcase::before {
+	content: "SHARK";
+	position: absolute;
+	top: 53%;
+	left: -42px;
+	color: #34313e;
+	font-size: 50px;
+	rotate: -90deg;
+	letter-spacing: 5px;
+}
+.carcase__cabin {
+	position: relative;
+	top: 70px;
+	left: 15px;
+	width: 70px;
+	height: 50px;
+	background-color: #ecf3f2;
+	border-radius: 15% 15% 10% 10% / 100% 100% 0% 0%;
+	border: 1px solid #000;
+}
+.carcase__cabin:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 35px;
+	background-color: #000;
+	width: 1px;
+	height: 100%;
+}
+.carcase__body {
+}
+.carcase__wing {
+	position: relative;
+	position: absolute;
+	top: 220px;
+	left: 95px;
+}
+.wing {
+}
+.wing--left {
+	scale: -1 1;
+	left: -345px;
+}
+.wing__body {
+	width: 350px;
+	height: 70px;
+	background-color: #00879f;
+	border-radius: 23% 100% 100% 0% / 0% 85% 8% 0%;
+	z-index: 1;
+	position: relative;
+}
+.wing__body::before {
+	content: "";
+	background: url("../img/shark.png") center / 70px no-repeat;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	width: 70px;
+	height: 70px;
+}
+.wing__weapon {
+	position: relative;
+	top: -110px;
+	left: 50px;
+	width: 12px;
+	height: 85px;
+	background-color: #34313e;
+}
+.wing__rocket {
+	position: relative;
+	top: -180px;
+	left: 210px;
+	width: 25px;
+	height: 75px;
+	background-color: #9f5f00;
+	border-top-left-radius: 12.5px;
+	border-top-right-radius: 12.5px;
+}
+.carcase__engine {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	width: 80px;
+	height: 40px;
+	background: linear-gradient(180deg, rgba(192, 212, 167, 1) 0%, rgba(143, 0, 0, 1) 100%);
+	border-radius: 29% 29% 15% 15% / 13% 13% 39% 39%;
+}
+.carcase:hover .carcase__engine:after {
+	content: "";
+	position: relative;
+	top: 40px;
+	left: 10px;
+	width: 60px;
+	height: 150px;
+	border-radius: 32% 32% 50% 50% / 33% 33% 67% 67%;
+	background: linear-gradient(180deg, rgba(255, 137, 10, 1) 0%, rgba(255, 247, 10, 1) 45%, rgba(255, 255, 212, 1) 100%);
+	z-index: 1;
+}
+.footer {
+	padding: 20px 0;
+	text-align: center;
+	line-height: 1.5;
+}
+.footer__container > *:not(:last-child) {
+	margin-bottom: 15px;
+}
+.footer__title {
+}
+.footer__text {
+	font-size: 20px;
+	color: red;
+}
+.footer__link {
+	max-width: 87px;
+}
+.footer__image {
+}
